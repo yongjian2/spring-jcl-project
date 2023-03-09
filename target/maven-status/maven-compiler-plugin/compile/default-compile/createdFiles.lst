@@ -1,0 +1,11 @@
+webprj\entity\Jclerror.class
+webprj\controller\Jclanalisys.class
+webprj\controller\JclController.class
+webprj\controller\WorkerrorController.class
+webprj\service\WorkerrService.class
+webprj\controller\JclMergeController.class
+webprj\controller\JclUpdateController.class
+webprj\entity\Workerr.class
+webprj\controller\JclManagerLogin.class
+webprj\controller\JclAdminController.class
+webprj\entity\JclLoginDTO.class

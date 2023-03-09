@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+#container {
+    position: relative;
+    width: 960px;
+    height: 500px;
+    margin-left: auto;  
+    margin-right: auto;
+}
+
+#container-block {
+	position: relative;
+    width: 960px;
+    height: inherit;
+    margin-left: auto;  
+    margin-right: auto;
+}
+
+    #container-table {
+    	position: relative;
+    	margin-left: auto;  
+    	margin-right: auto;
+        width: 900px;
+        height: inherit;
+        border-color: #555;
+        border-collapse: collapse;
+        border: none;
+    }
+    #container-block .container-theader{
+        font-weight: bold;
+        font-size: 17px;
+        height: 40px;
+    }
+    
+    #container-block .container-input {
+    	padding-left: 10px;
+        font-size: 16px;
+        height: 50px;
+        width: 400px;
+    }
+    
+    #container-comment-block {
+    	position: relative;
+    	display: flex;
+    	justify-content: space-between;
+    }
+    
+    .container-theader-comment {
+    	position: inherit;
+    	top: 18px;
+    	right: 10px;
+    	font-size:11px
+    }
+    
+    .container-theader2 {
+     	position: inherit;
+     	top: 10px;
+        font-weight: bold;
+        font-size: 17px;
+        height: 40px;
+    }
+
+    .input-text {
+        font: bold;
+        font-size: 16px;
+        height: 30px;
+        width: 400px;
+        padding-left: 10px;
+        background-color: rgba(245, 245, 220, 0.5);
+        border: 1px;
+        border-color: rgba(100, 100, 100, 0.7);
+        border-style: solid ;
+    }
+
+    .input-text2 {
+        font: bold;
+        font-size: 16px;
+        height: 30px;
+        width: 170px;
+        padding-left: 10px;
+        background-color: rgba(245, 245, 220, 0.5);
+        border: 1px;
+        border-color: rgba(100, 100, 100, 0.7);
+        border-style: solid ;
+    }
+
+    #container-block .container-text {
+        padding-left:10px;
+        height: 50px;
+        width: 400px;
+    }
+    
+#factorsExText {
+	font-size: 12px;
+}
+
+#btn-block {
+   	position: relative;
+    width: 900px;
+    margin-left: auto;  
+    margin-right: auto;
+}
+  
+     .btn3 {
+    	position: absolute;
+        width: 70px;
+        height: 30px;
+        top: 30px;
+        left: 0px;
+    }
+	.btn4 {
+    	position: absolute;
+        width: 100px;
+        height: 30px;
+        top: 30px;
+        right: 0px;
+    }

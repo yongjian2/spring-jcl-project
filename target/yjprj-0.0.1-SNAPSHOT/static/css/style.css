@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+#main-header {
+    height: 50px;
+    position: relative;
+}
+    #main-header>.header-block{
+        position: absolute;
+        top: 25%;
+        left: 7%;
+        height: inherit;
+        width: 1280px;
+        margin-left: auto;
+        margin-right: auto;    
+    }
+
+ul {
+    font-size: 0;
+}
+
+ul li {
+    width: 180px; height: 30px;
+    display: inline-block; color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#table-blank{
+    position: relative;
+    height: 200px;
+}
+
+#table1{
+    position: relative;
+    border-color: #555;
+    border-collapse: collapse;
+    border-left: none;
+    border-right: none;
+    width: 1300px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    #table1 tr:nth-child(1){
+        border-top-style: double;
+        height: 50px;
+    }
+
+    #table1 tr:nth-child(2){
+        border-bottom-style: double;
+        height: 50px;
+    }
+
+    #table-bl{
+        padding-left: 7px;
+    }
+
+
+    #table1 .t1{
+        width: 150px;
+    }
+
+    #table1 .t2{
+        width: 300px;
+    }
+
+    #table1 .t3{
+        width: 550px;
+    }
+
+    #table1 .f1{
+        width: 150px;
+    }
+
+    #table1 .f2{
+        width: 400px;
+    }
+
+#cal{
+    position: absolute;
+    bottom: 10px;
+    right: 250px;
+    width: 100px;
+}
+
+.b1{
+    position: absolute;
+    bottom: 10px;
+    right: 180px;
+    width: 60px;
+}
+
+.b2{
+    position: absolute;
+    bottom: 10px;
+    right: 110px;
+    width: 60px;
+}
+
+.b3{
+    position: fixed;
+    top: 237.6px;
+    right: 18px;
+    width: 60px;
+}
+
+table .br1{
+    height: 40px;
+    width: 60px;
+    border-bottom-style: none;
+}
+
+#totalcount-block{
+    height: 30px;
+    position: relative;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    #totalcount-block .totalcount{
+        position: absolute;
+        top: 10%;
+        left: 0%;
+        height: inherit;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+#table2{
+    position: relative;
+    border-color: #555;
+    border-collapse: collapse;
+    border-left: none;
+    border-right: none;
+    width: 1300px;
+    height: auto;
+    margin-left: auto;  
+    margin-right: auto;
+}
+
+    #table2 .table2-head{
+        background-color: rgb(249, 218, 250);
+    }
+
+    #table2 .thead-td{
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px; 
+        height: 30px;
+    }    
+
+    #table2 .tbody-td{
+        text-align: center;
+        font-size: 14px;
+        height: 40px;
+    }    

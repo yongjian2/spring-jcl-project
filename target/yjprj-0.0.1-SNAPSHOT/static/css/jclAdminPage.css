@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+
+#main-header {
+    height: 50px;
+    position: relative;
+}
+    #main-header>.header-block{
+        position: absolute;
+        top: 25%;
+        left: 7%;
+        height: 90;
+        width: 1280px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+ul {
+    font-size: 0;
+}
+
+ul li {
+    width: 180px; height: 50px;
+    display: inline-block; color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#content1-block {
+	position: relative;
+    width: 1280px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    #content1-h3{
+        position: absolute;
+        top: 40px;
+    }
+
+    #content1-table1-block {
+        position: absolute;
+        top: 50px;
+    }
+
+	#table1 {
+		position: absolute;
+		left: 15px;
+		top: 30px;
+		width: 1280px;
+		margin-left: auto;
+   		margin-right: auto;
+        border-color: #555;
+        border-collapse: collapse;
+	}
+	    
+	.table1-thead {
+		background-color: rgb(249, 218, 250);
+	}
+	
+    .table1-thead-td {
+        text-align: center;
+        font-size: 16px;
+        height: 30px;
+    }
+    
+    .table1-tbody-td {
+        text-align: center;
+        font-size: 16px;
+        height: 40px;
+    }
+    
+    .table1-input1 {
+    	font: bold;
+        font-size: 16px;
+        height: 25px;
+        width: 170px;
+        padding-left: 10px;
+        background-color: rgba(245, 245, 220, 0.5);
+        border: 1px;
+        border-color: rgba(100, 100, 100, 0.7);
+        border-style: solid ;
+    }
+    
+    .table1-input2 {
+    	font: bold;
+        font-size: 16px;
+        height: 25px;
+        width: 400px;
+        padding-left: 10px;
+        background-color: rgba(245, 245, 220, 0.5);
+        border: 1px;
+        border-color: rgba(100, 100, 100, 0.7);
+        border-style: solid ;
+    }
+
+    #table1-btn1-block {
+        position: absolute;
+        margin-bottom: 0px;
+        width: 55px;
+        top: 60px;
+        right: 5px;
+        bottom: 5px;
+
+    }
+
+    .table1-btn1 {
+        position: absolute;
+        width: 55px;
+        height: 30px;
+        top: 110px;
+        left: 1240px;
+    }
+
+
+#content2-total-block {
+    position: relative;
+    width: 1280px;
+	height:150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    #content2-block {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        top: 20px;
+        width: inherit;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #content2-btn {
+        width: 110px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+        #table2 {
+            position: absolute;
+            left: 15px;
+            top: 40px;
+            width: 1280px;
+            margin-left: auto;
+            margin-right: auto;
+            border-color: #555;
+            border-collapse: collapse;
+        }
+            #table2-thead {
+                background-color: rgb(249, 218, 250);
+            }
+                .table2-thead-td {
+                    text-align: center;
+                    font-size: 16px;
+                    height: 30px;
+                }
+                .table2-tbody-td {
+                    text-align: center;
+                    font-size: 16px;
+                    height: 40px;
+                }
+

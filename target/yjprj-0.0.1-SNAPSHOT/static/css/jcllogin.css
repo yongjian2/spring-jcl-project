@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form {
+    position: relative;
+    z-index: 2;
+}
+.login-form h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.int-block {
+    width: 400px; position: relative;
+    margin-top: 20px;
+
+}
+    .int-block:first-child {margin-top: 0;}
+
+    .int-block input {
+        width: 100%;
+        padding: 20px 10px 10px;
+        border: none;
+        border-bottom: 1px solid #999;
+        font-size: 18px;
+        outline: none;
+    }
+
+    .int-block label {
+        position: absolute; left: 10px; top:15px;
+        font-size: 18px; 
+        transition: all .5s ease;
+    }
+
+    .int-block input:focus + label, 
+    .int-block input:valid + label {
+        top: -2px;
+        font-size: 13px; 
+    }
+
+    .btn-block { margin-top: 40px; }
+    .btn-block button {
+        width: 100%; height: 50px;
+        background-color: rgb(245, 245, 220);
+        font-size: 20px;
+        border: solid 1px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
